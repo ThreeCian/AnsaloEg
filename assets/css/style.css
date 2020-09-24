@@ -1,0 +1,86 @@
+.container {
+    max-width: 600px !important;
+}
+
+.footer {
+    border: solid 1px rgb(218, 210, 210);
+    width: 100%;
+    text-align: center;
+
+}
+
+h1 {
+    border: solid 1px rgb(218, 210, 210);
+    width: 100%;
+    padding: 10px;
+}
+
+.boton {
+
+    border-radius: 50%;
+    width: 75px;
+    height: 50px;
+    margin: 0px 20px;
+    border: solid 2px rgb(155, 152, 152);
+
+}
+
+.dark {
+    background-color: #343a40;
+
+}
+
+.dark p,
+.dark h1,
+.dark h3,
+
+.dark label {
+    color: #fffb05;
+
+
+}
+
+.dark button {
+    background-color: #fffb05;
+
+    color: #677077;
+}
+
+
+.neon {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+}
+
+
+.neon h1 {
+    color: #83f52c;
+}
+
+.neon p {
+    color: #83f52c;
+}
+
+.neon h3,
+.neon label {
+    color: cyan;
+}
+
+.neon button {
+
+    background-color: cyan;
+    color: #343a40;
+}
+
+
+.bk-black {
+    background-color: black;
+}
+
+.bk-gray {
+    background-color: rgb(29, 28, 28);
+}
+
+.borde {
+    border: solid 1px#343a40;
+}
