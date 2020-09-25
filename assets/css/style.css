@@ -9,10 +9,19 @@
 
 }
 
+
 h1 {
     border: solid 1px rgb(218, 210, 210);
     width: 100%;
     padding: 10px;
+}
+
+.tamaño2 {
+    height: 24px;
+}
+
+.tamaño {
+    height: 67px;
 }
 
 .boton {

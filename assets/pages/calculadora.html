@@ -6,6 +6,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -21,13 +23,13 @@
                 <header class="text-muted">
                     Calculadora
                 </header>
-                <p class="text-muted text-right"></p>
-                <p class="display-4 my-4 text-right">0</p>
+                <p class="text-muted text-right tamaño2" id="operation"></p>
+                <p class="display-4 my-4 text-right tamaño" id="showResult"></p>
                 <div class="row text-center ">
                     <div class="col-3 h5 p-4 borde calc bk-gray m-0" id="perc">%</div>
-                    <div class="col-3 h5 p-4 borde calc bk-gray m-0 " id="ls">±</div>
+                    <div class="col-3 h5 p-4 borde  bk-gray m-0 " id="ls">±</div>
                     <div class="col-3 h5 p-4 borde bk-gray m-0">c</div>
-                    <div class="col-3 h5 p-4 borde bk-gray m-0">ce</div>
+                    <div class="col-3 h5 p-4 borde bk-gray m-0" id="del"><i class="fas fa-backspace"></i></div>
                     <div class="col-3 h5 p-4 borde calc m-0 numbers bk-black">7</div>
                     <div class="col-3 h5 p-4 borde calc m-0 numbers bk-black">8</div>
                     <div class="col-3 h5 p-4 borde calc m-0 numbers bk-black">9</div>

@@ -128,3 +128,5 @@ calc.addEventListener('click', () => {
 
     window.location = './assets/pages/calculadora.html'
 })
+
+
